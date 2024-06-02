@@ -329,7 +329,7 @@ function App() {
                 className="bg-blue-700 text-white px-3 py-1 rounded-lg hover:bg-blue-800 active:scale-95"
                 onClick={handleSetInitial}
               >
-                Set Initial
+                Start Index
               </button>
             </div>
             <div className="flex items-center gap-x-1 rounded-lg ">
@@ -347,7 +347,7 @@ function App() {
                 className="bg-blue-700 text-white px-3 py-1 ml-0 rounded-lg hover:bg-blue-800 active:scale-95"
                 onClick={handleSetFinal}
               >
-                Set Final
+                Last Index
               </button>
             </div>
           </div>
