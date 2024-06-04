@@ -6,6 +6,8 @@ import {Route, RouterProvider , createBrowserRouter, createRoutesFromElements } 
 import Home from './Home';
 import About from './About';
 import ContactUs from './ContactUs';
+import User from './User';
+import Github from './Github';
 
 // const router = createBrowserRouter([
 //   {
@@ -33,7 +35,9 @@ const router = createBrowserRouter(
     <Route path='/' element={<App/>} >
       <Route path='' element={<Home/>} />
       <Route path='/about' element={<About/>} />
-      <Route path='/contact' element={<Contact/>} />
+      <Route path='/contactUS' element={<ContactUs/>} />
+      <Route path='/user/:userid' element={<User/>} />
+      <Route path='/github' element={<Github/>} />
     </Route>
   )
 )
